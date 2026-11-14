@@ -1,0 +1,5 @@
+run,change,best_epoch,best_val_mae,final_train_loss,final_val_loss
+main,none,106,2.625,9.201,17.232
+lr_tiny,learning rate 3e-3 -> 1e-5,150,9.252,194.381,226.67
+lr_huge,learning rate 3e-3 -> 1e-1,89,2.959,16.315,25.629
+wide,hidden size 64 -> 1024,26,2.613,5.406,21.553

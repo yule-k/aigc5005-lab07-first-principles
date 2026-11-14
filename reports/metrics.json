@@ -1,0 +1,25 @@
+{
+  "results": {
+    "train_mean": {
+      "val_mae": 10.154,
+      "test_mae": 9.649
+    },
+    "linear_regression": {
+      "val_mae": 9.317,
+      "test_mae": 8.573
+    },
+    "network": {
+      "val_mae": 2.625,
+      "test_mae": 2.44
+    }
+  },
+  "best_epoch": 106,
+  "settings": {
+    "epochs": 150,
+    "learning_rate": 0.003,
+    "hidden": 64,
+    "batch_size": 64,
+    "seed": 42
+  },
+  "torch": "2.15.0"
+}
